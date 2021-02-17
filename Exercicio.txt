@@ -1,0 +1,45 @@
+Qual comando você utilizou para criar o repositório local?
+Criar um repositório Git local
+$ criar uma pasta no seu computador
+$ digitar nesse diretorio "Git init"
+$ digitar nesse diretorio 
+$ dignitary git config --global user.name "Nome da Pessoa"
+$ digitar git config --global user.email email da pessoal->fulanodetal@exemplo.br
+
+Quais comandos você utilizou para realizar seu primeiro commit?
+Criar um primeiro arquivo e fazer o primeiro commit 
+Abrir um editor de sua preferencia e criar um arquivo na pasta do exercicio anterior e que não tenha a extensao na lista do .gitiguinore 
+abrir um prompt na pasta do exercicio anterior e digitar 
+$ git add "Nome do arquivo que voce criou"
+$ git commit -m "Um texto pra identificar a ação efetuada"
+
+Qual comando você utilizou para conectar seu repositório local com o github?
+Criar um repositório no Github
+$ abrir o site https://github.com/
+$ logar com usuario e senha do github
+$ Clicar no sinal de "+ (mais) no canto superior direito" / clicar em "New repository"
+$ no combo Repository name, digitar o nome do repositório que deseja Criar
+$ no campo "Description (optional)" digitar no combo uma breve descrição do que se trata o repositório
+$ selecionar se o repositorio é "Publico"  ou   "Privador"
+$ selecionar a caixa "Add a README file"
+$ selecionar a opcao "add .gitignore" OBS: Selecione a linguagem a qual voce estara desenvolvendo ou crie seu arquivo 
+$ Click em "Create Repository" para criar repositorio "
+Conectar os dois repositórios
+$ abrir o site https://github.com/
+$ logar com usuario e senha do github
+$ ao lado esquerdo da tela em "repositorios", Click no seu repositorio criado que aparecera na listagem
+$ ao abrir sua pagina de repositorio, click na seta para baixo no botao "Code" / click em "HTTPS" / e copie o conteudo do box onde estara a url do seu repositorio. Sera algo dessa maneira "https://github.com/euclidesmcse/treinamentogit.git"
+$ abra o Git Bash / Crie uma pasta no seu computador / digite "git clone https://github.com/sua conta no git/nome do seu repositorio."
+
+
+Qual comando você utilizou para realizar seu primeiro envio de arquivos?
+Fazer o primeiro envio de arquivos para o Github
+$ aproveitando o clone feito no exercicio anterior
+$ Abrir o prompt via git Bash / ir ate a pasta onde foi feito feito download via git clone /
+$ Criar um arquivo de sua preferencia
+$ $ digitar nesse diretorio 
+$ dignita git config --global user.name "Nome da Pessoa"
+$ digitar git config --global user.email email da pessoal->fulanodetal@exemplo.br
+$ digitar git add "nome do arquivo"
+$ digitar git commit -am "descrição para identificar ou o que desejar incluir"
+$ digitar git push para subir o arquivo criado localmente para o github
